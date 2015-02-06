@@ -6,13 +6,14 @@ Don't forget to set the 'OPENDNS_API_TOKEN' in your bash environment to your OWN
 
 # Usage:
 
-usage: opendns.py [-h] [-i [DOMAIN [DOMAIN ...]]] [-f FILE] [-c CAT] [-o OUTFILE] [-r] [-v] [-d]
+usage: ```opendns.py [-h] [-i [DOMAIN [DOMAIN ...]]] [-f FILE] [-c CAT] [-o OUTFILE] [-r] [-v] [-d]```
 
 helper script to allow easy script access to the OpenDNS investigate API.
 
+```
 optional arguments:
   -h, --help
-      show this help message and exit
+     show this help message and exit
   -i [DOMAIN [DOMAIN ...]], --investigate [DOMAIN [DOMAIN ...]]
      specify domain to investigate
   -f FILE, --file FILE
@@ -27,3 +28,4 @@ optional arguments:
       print with verbose labels
   -d, --debug
       turn on debugging
+```
