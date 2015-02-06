@@ -12,15 +12,15 @@ helper script to allow easy script access to the OpenDNS investigate API.
 
 optional arguments:
   -h, --help
-     show this help message and exit
+      show this help message and exit
   -i [DOMAIN [DOMAIN ...]], --investigate [DOMAIN [DOMAIN ...]]
-     specify domain to investigate
+      specify domain to investigate
   -f FILE, --file FILE
       specify file with a list of lookups
   -c CAT, --category CAT
       specify which category to report on
   -o OUTFILE, --outfile OUTFILE
-    write results to a file instead of STDOUT
+      write results to a file instead of STDOUT
   -r, --readable
       print results in human-readable format
   -v, --verbose
