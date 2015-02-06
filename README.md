@@ -5,12 +5,11 @@ Helper script for the security office to have easier access to the OpenDNS inves
 Don't forget to set the 'OPENDNS_API_TOKEN' in your bash environment to your OWN api key.
 
 # Usage:
-
-usage: ```opendns.py [-h] [-i [DOMAIN [DOMAIN ...]]] [-f FILE] [-c CAT] [-o OUTFILE] [-r] [-v] [-d]```
+```
+usage: opendns.py [-h] [-i [DOMAIN [DOMAIN ...]]] [-f FILE] [-c CAT] [-o OUTFILE] [-r] [-v] [-d]
 
 helper script to allow easy script access to the OpenDNS investigate API.
 
-```
 optional arguments:
   -h, --help
      show this help message and exit
